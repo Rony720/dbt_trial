@@ -1,4 +1,4 @@
--- models/calendar_model.sql
+-- models/example/calendar_model.sql
 
 SELECT
   "date" AS date,
