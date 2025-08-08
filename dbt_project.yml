@@ -40,6 +40,6 @@ models:
     # Applies to all files under models/example/
     
     example:
-      database: DEVELOPMENT
+      +database: DEVELOPMENT
       +schema: TS_dataset
       +materialized: table
