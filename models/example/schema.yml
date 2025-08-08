@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: calendar_model
+    description: "Calendar dimensions model for TS"
+    columns:
+      - name: date
+        description: "The calendar date"
+        tests:
+          - not_null
+          - unique
+      - name: day_of_week
+        description: "Day of the week"
